@@ -1,0 +1,47 @@
+@charset "utf-8";
+/* CSS Document */
+
+nav{position: fixed;}
+.screen01.start nav{top:0px;}
+.top_bar{margin-top: 10%}
+.div>div{width:60px;height:2px;background:#ccc;position:absolute;top:-2px;right:-2px;transform:rotate(-60deg);opacity:0.76;}
+
+.screen02 .fuwu li:nth-of-type(1){margin-left: -280px;margin-top: -445px;background: #cbc9c9 url(../images/sv01.png) no-repeat center center;background-size: 60%;}
+.screen02 .fuwu li:nth-of-type(2){margin-left: -280px;margin-top: 295px;background: #cbc9c9 url(../images/sv02.png) no-repeat center center;background-size: 60%;}
+.screen02 .fuwu li:nth-of-type(3){margin-left: 80px;margin-top: -445px;background: #cbc9c9 url(../images/sv03.png) no-repeat center center;background-size: 60%;}
+.screen02 .fuwu li:nth-of-type(4){margin-left: 80px;margin-top: 295px;background: #cbc9c9 url(../images/sv04.png) no-repeat center center;background-size: 60%;}
+
+.screen02 .fuwu_zi li:nth-of-type(1){margin-left: -280px;margin-top: -220px;}
+.screen02 .fuwu_zi li:nth-of-type(2){margin-left: -280px;margin-top: 520px;}
+.screen02 .fuwu_zi li:nth-of-type(3){margin-left: 80px;margin-top: -220px;}
+.screen02 .fuwu_zi li:nth-of-type(4){margin-left: 80px;margin-top: 520px;}
+
+.allworks li{width: 600px;margin-left: -300px;}
+.allworks dl{margin-right: 20px;margin-bottom: 10px;}
+.allworks dl:nth-of-type(2){margin-right: 0px;}
+.allworks dl:nth-of-type(4){margin-right: 0px;}
+
+.motai_in{width: 90%;height: 650px;top:50%;margin-left: -45%;background-size: 50%;}
+
+.motai_in .gol{position: absolute;left:3%;top: 35%;cursor: pointer;background: url(../images/gogo.png) no-repeat 0 0;width: 65px;height: 198px;}
+.motai_in .gor{;position: absolute;right:3%;top: 35%;cursor: pointer;background: url(../images/gogo.png) no-repeat -65px 0;width: 65px;height: 198px;}
+.allworks dt{opacity: 1;}
+
+.liuyan{top:6%;}
+
+.lianxi{width: 85%;height: 150px;margin: 100px auto 0;}
+.lianxi li{height: 150px;margin: 0 4.5%;}
+
+.allworks dl a{display: none;}
+
+.screen03 .app{width: 80%;height: 1000px;position: absolute;left:50%;top:26%; margin-left: -40%; z-index: 10;display: none;}
+.screen03 .app .phone{width: 400px;height: 800px;background: url(../images/phone.png) no-repeat center center;position: absolute;background-size: contain;left:50%;top:10px;margin-left: -200px;}
+.app .phone .gui{width: 343px;height: 605px;position: absolute;left:29px;top:97px;overflow: hidden;}
+.app .zhanshi{display: none;}
+
+.appbox{display:none;opacity: 0;}
+
+.d_title .title{font-size: 18px;margin-top: 15%;}
+
+.nav_in ul{float: right;width: 74%;}
+.screen07 .all ul li{width: 10.97%;}

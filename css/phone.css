@@ -1,0 +1,7 @@
+@charset "utf-8";
+/* CSS Document */
+
+nav{position: fixed;}
+.screen01.start nav{top:0px;}
+.top_bar{margin-top: 12%}
+.div>div{width:60px;height:2px;background:#ccc;position:absolute;top:-2px;right:-2px;transform:rotate(-60deg);opacity:0.6;}

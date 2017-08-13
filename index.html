@@ -1,0 +1,554 @@
+<!doctype html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+
+    <meta name="viewport" content="width=device-width,initial-scale=0.47,user-scalable=no">
+
+    <meta name="Keywords" content="H5个人网站，CSS3个人网站，个人网站，web前端工程师，React,前端，" />
+    <meta name="Description" content="H5个人网站，西瓜阁，web前端工程师韩贝贝的个人网站，用来展示其作品及与同行交流的一个平台" />
+    <title>checked</title>
+    <link rel="shortcut icon" href="images/favicon.ico" />
+    <link rel="stylesheet" type="text/css" href="css/cssreset.css">
+    <link rel="stylesheet" href="css/comment.css">
+    <link rel="stylesheet" type="text/css" href="css/style.css" media="all">
+    <link rel="stylesheet" type="text/css" href="css/pad.css" media="screen and (max-width:1000px)">
+    <link rel="stylesheet" type="text/css" href="css/phone.css" media="screen and (min-width:0px) and (max-width:650px)">
+    <script src="js/jquery-1.7.2.min.js"></script>
+    <script src="js/jquery.mousewheel.js"></script>
+    <script src="js/jQuery-face-cursor.js"></script>
+    <script src="js/myjs.js"></script>
+    <style>
+        .canvas {
+            position: absolute;
+            top: 0;
+            left: 0;
+            z-index: 100;
+            margin-left: 40px;
+        }
+    </style>
+    <script>
+        var _hmt = _hmt || [];
+        (function () {
+            var hm = document.createElement("script");
+            hm.src = "https://hm.baidu.com/hm.js?b8035dbe09bd3dce95a02430db98ce91";
+            var s = document.getElementsByTagName("script")[0];
+            s.parentNode.insertBefore(hm, s);
+        })();
+    </script>
+</head>
+
+<body>
+    <canvas class="canvas" width="100%" height="100%"></canvas>
+    <div class="loading">
+        <!--<div>LOADING...</div>--></div>
+    <audio src="MP3/sg.mp3" autoplay loop></audio>
+    <div class="music" id="music"></div>
+    <ol class="gps">
+        <li class="current"></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <!-- <li></li>
+        <li></li> -->
+    </ol>
+    <section class="doc">
+        <div class="screen01 start">
+            <div class="div"></div>
+            <nav>
+                <div class="nav_in">
+                    <h1><img src="images/logo.png" width="100%" alt="H5个人网站" /></h1>
+                    <ul>
+                        <li class="current">
+                            <p>首页</p>
+                            <p>HOME</p>
+                        </li>
+                        <li>
+                            <p>技能</p>
+                            <p>SKILLS</p>
+                        </li>
+                        <li>
+                            <p>作品</p>
+                            <p>WORKS</p>
+                        </li>
+                        <li>
+                            <p>关于</p>
+                            <p>ABOUT</p>
+                        </li>
+                        <li>
+                            <p>联系</p>
+                            <p>CONTACT</p>
+                        </li>
+                        <!-- <li>
+                            <p>随笔</p>
+                            <p>ESSAY</p>
+                        </li>
+                        <li>
+                            <p>邻居</p>
+                            <p>FRIEND</p>
+                        </li> -->
+                    </ul>
+                </div>
+            </nav>
+            <article>
+                <h3>你好，你可以叫韩贝贝</h3>
+                <h2>CREATIVE GIVE PEOPLE LIFE AND FUN</h2>
+                <h3>欢迎来到我的个人网站
+                    <!-- 访问次数:<span class='visits'>loading...</span>--></h3>
+            </article>
+            <div class="box"></div>
+            <div class="scroll-down">
+                <span></span>
+            </div>
+        </div>
+        <div class="screen02 start">
+            <div class="top_bar">
+                <span></span>
+                <span></span>
+                <div class="up">SKILLS</div>
+                <div class="down">
+                    <p>枯藤老树昏鸦</p>
+                    <p>VINE VETERAN DARK CROW</p>
+                </div>
+            </div>
+            <div class="circle_big"></div>
+            <div class="circle_small"></div>
+            <div class="delta"></div>
+            <ul class="skill_ul">
+                <li style="opacity: 1;">React</li>
+                <li style="opacity: 1;">HTML</li>
+                <li style="opacity: 1;">CSS</li>
+                <li style="opacity: 1;">Javascript</li>
+                <li style="opacity: 1;">Jquery</li>
+                <li style="opacity: 1;">Git</li>
+                <li style="opacity: 1;">webpack</li>
+                <li style="opacity: 1;">node</li>
+                <li style="opacity: 1;">ES6</li>
+                <li style="opacity: 1;">H5</li>
+            </ul>
+            <ul class="fuwu">
+                <li></li>
+                <li></li>
+                <li></li>
+                <li></li>
+            </ul>
+            <ul class="fuwu_zi">
+                <li>
+                    <p>网页制作</p>
+                    <p>WEB DECORATION</p>
+                </li>
+                <li>
+                    <p>网页设计</p>
+                    <p>WEB DESIGN</p>
+                </li>
+                <li>
+                    <p>平面设计</p>
+                    <p>GRAPHIC DESIGN</p>
+                </li>
+                <li>
+                    <p>私人定制</p>
+                    <p>PRIVATE CUSTOM</p>
+                </li>
+            </ul>
+        </div>
+        <div class="screen03 start">
+            <div class="top_bar">
+                <span></span>
+                <span></span>
+                <div class="up">WORKS</div>
+                <div class="down">
+                    <p>小桥流水人家</p>
+                    <p>SMALL BRIDGE BLIGE HOME</p>
+                </div>
+            </div>
+
+            <ol class="worksul">
+                <li class="current">WEB</li>
+                <li>UI</li>
+                <li>ICON</li>
+                <li>OTHER</li>
+            </ol>
+            <ul class="allworks">
+                <li class="show">
+                    <div class="more_work">
+                        <div class="xiguamusic"><a href="http://www.xi-g.com/mc.html">西瓜音乐</a></div>
+                        <div class="morework"><a href="photo.html">更多作品</a></div>
+                    </div>
+                    <dl>
+                        <a href="demo/jd/index.html" target="_blank"></a>
+                        <dt>
+                            <img src="images/wk09.jpg" width="270" height="270" alt="京东DEMO" />
+                        </dt>
+                        <dd>
+                            <p class="p01">京东DEMO</p>
+                            <p class="p02">DATE: 2016-10</p>
+                            <p class="p03">所属行业：电商网站</p>
+                        </dd>
+                    </dl>
+                    <dl>
+                        <a href="demo/tm/index.html" target="_blank"></a>
+                        <dt><img src="images/wk010.jpg" width="270" height="270" alt="天猫DEMO" /></dt>
+                        <dd>
+                            <p class="p01">天猫DEMO</p>
+                            <p class="p02">DATE: 2016-11</p>
+                            <p class="p03">所属行业：电商网站</p>
+                        </dd>
+                    </dl>
+                    <dl>
+                        <a href="demo/sn/index.html" target="_blank"></a>
+                        <dt><img src="images/wk011.jpg" width="270" height="270" alt="苏宁易购DEMO" /></dt>
+                        <dd>
+                            <p class="p01">苏宁易购DEMO</p>
+                            <p class="p02">DATE: 2016-11</p>
+                            <p class="p03">所属行业：电商网站</p>
+                        </dd>
+                    </dl>
+                    <dl>
+                        <a href="demo/vancl/index.html" target="_blank"></a>
+                        <dt><img src="images/wk012.jpg" width="270" height="270" alt="凡客DEMO" /></dt>
+                        <dd>
+                            <p class="p01">凡客DEMO</p>
+                            <p class="p02">DATE: 2016-11</p>
+                            <p class="p03">所属行业：电商网站</p>
+                        </dd>
+                    </dl>
+                </li>
+                <li>
+                    <dl>
+                        <dt><img src="images/wk013.jpg" width="270" height="270" alt="主题绘制" /></dt>
+                        <dd>
+                            <p class="p01">主题绘制</p>
+                            <p class="p02">DATE: 2016-10</p>
+                            <p class="p03">所属行业：手机主题</p>
+                        </dd>
+                    </dl>
+                    <dl>
+                        <dt><img src="images/wk014.jpg" width="270" height="270" alt="天气插件绘制" /></dt>
+                        <dd>
+                            <p class="p01">天气插件绘制</p>
+                            <p class="p02">DATE: 2016-10</p>
+                            <p class="p03">所属行业：手机主题</p>
+                        </dd>
+                    </dl>
+                    <dl>
+                        <dt><img src="images/other03.jpg" width="270" height="270" alt="Manks糖果包装" /></dt>
+                        <dd>
+                            <p class="p01">Manks糖果包装</p>
+                            <p class="p02">DATE: 2013-09</p>
+                            <p class="p03">所属行业：包装设计</p>
+                        </dd>
+                    </dl>
+                    <dl>
+                        <dt><img src="images/other04.jpg" width="270" height="270" alt="西瓜居茯苓饼包装" /></dt>
+                        <dd>
+                            <p class="p01">西瓜居茯苓饼包装</p>
+                            <p class="p02">DATE: 2013-10</p>
+                            <p class="p03">所属行业：包装设计</p>
+                        </dd>
+                    </dl>
+                </li>
+                <li>
+                    <dl>
+                        <dt><img src="images/ui01.jpg" width="270" height="270" alt="ICON绘制" /></dt>
+                        <dd>
+                            <p class="p01">ICON绘制</p>
+                            <p class="p02">DATE: 2016-09</p>
+                            <p class="p03">所属行业：UI图标</p>
+                        </dd>
+                    </dl>
+                    <dl>
+                        <dt><img src="images/ui02.jpg" width="270" height="270" alt="ICON绘制" /></dt>
+                        <dd>
+                            <p class="p01">ICON绘制</p>
+                            <p class="p02">DATE: 2016-10</p>
+                            <p class="p03">所属行业：UI图标</p>
+                        </dd>
+                    </dl>
+                    <dl>
+                        <dt><img src="images/wk07.jpg" width="270" height="270" alt="ICON绘制" /></dt>
+                        <dd>
+                            <p class="p01">ICON绘制</p>
+                            <p class="p02">DATE: 2016-10</p>
+                            <p class="p03">所属行业：UI图标</p>
+                        </dd>
+                    </dl>
+                    <dl>
+                        <dt><img src="images/wk08.jpg" width="270" height="270" alt="ICON绘制" /></dt>
+                        <dd>
+                            <p class="p01">ICON绘制</p>
+                            <p class="p02">DATE: 2016-10</p>
+                            <p class="p03">所属行业：UI图标</p>
+                        </dd>
+                    </dl>
+                </li>
+                <li>
+                    <dl>
+                        <dt><img src="images/plane01.jpg" width="270" height="270" alt="西泊橱柜画册" /></dt>
+                        <dd>
+                            <p class="p01">西泊橱柜画册</p>
+                            <p class="p02">DATE: 2013-12</p>
+                            <p class="p03">所属行业：家居装饰</p>
+                        </dd>
+                    </dl>
+                    <dl>
+                        <dt><img src="images/plane02.jpg" width="270" height="270" alt="美松美家VI手册" /></dt>
+                        <dd>
+                            <p class="p01">美松美家VI手册</p>
+                            <p class="p02">DATE: 2014-04</p>
+                            <p class="p03">所属行业：家居装饰</p>
+                        </dd>
+                    </dl>
+                    <dl>
+                        <dt><img src="images/plane03.jpg" width="270" height="270" alt="电商BANNER" /></dt>
+                        <dd>
+                            <p class="p01">电商BANNER</p>
+                            <p class="p02">DATE: 2016-09</p>
+                            <p class="p03">所属行业：电子商务</p>
+                        </dd>
+                    </dl>
+                    <dl>
+                        <dt><img src="images/plane04.jpg" width="270" height="270" alt="盘子女人坊折页" /></dt>
+                        <dd>
+                            <p class="p01">盘子女人坊折页</p>
+                            <p class="p02">DATE: 2016-09</p>
+                            <p class="p03">所属行业：古装摄影</p>
+                        </dd>
+                    </dl>
+                </li>
+            </ul>
+            <div class="app">
+                <div class="phone">
+                    <div class="gui">
+                        <ul>
+                            <li><img src="images/zhuti1.jpg" width="100%" alt=""></li>
+                            <li><img src="images/zhuti2.jpg" width="100%" alt=""></li>
+                            <li><img src="images/zhuti3.jpg" width="100%" alt=""></li>
+                            <li><img src="images/zhuti4.jpg" width="100%" alt=""></li>
+                            <li><img src="images/zhuti5.jpg" width="100%" alt=""></li>
+                            <li><img src="images/zhuti6.jpg" width="100%" alt=""></li>
+                            <li><img src="images/zhuti7.jpg" width="100%" alt=""></li>
+                            <li><img src="images/zhuti8.jpg" width="100%" alt=""></li>
+                            <li><img src="images/zhuti9.jpg" width="100%" alt=""></li>
+                            <li><img src="images/zhuti10.jpg" width="100%" alt=""></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="zhanshi">
+                    <div><img src="images/kj01.jpg" width="100%" alt=""></div>
+                    <div><img src="images/kj02.jpg" width="100%" alt=""></div>
+                    <div><img src="images/kj03.jpg" width="100%" alt=""></div>
+                    <div><img src="images/kj04.jpg" width="100%" alt=""></div>
+                </div>
+            </div>
+
+            <div class="appbox autobox">
+                <div class="appbox_in">
+                    <ul class="bg-bubbles">
+                        <li></li>
+                        <li></li>
+                        <li></li>
+                        <li></li>
+                        <li></li>
+                        <li></li>
+                        <li></li>
+                        <li></li>
+                        <li></li>
+                        <li></li>
+                    </ul>
+                </div>
+                <div class="appbox_in01"></div>
+                <div class="appbox_in02">
+                    <div class="swiper-container">
+                        <div class="shadow"></div>
+                        <div class="shadow01"></div>
+                        <ul>
+                            <li><a href="#"><img src="images/zhuti1.jpg" alt=""></a></li>
+                            <li class="current"><a href="#"><img src="images/zhuti2.jpg" alt=""></a></li>
+                            <li><a href="#"><img src="images/zhuti3.jpg" alt=""></a></li>
+                            <li><a href="#"><img src="images/zhuti4.jpg" alt=""></a></li>
+                            <li><a href="#"><img src="images/zhuti5.jpg" alt=""></a></li>
+                            <li><a href="#"><img src="images/zhuti6.jpg" alt=""></a></li>
+                            <li><a href="#"><img src="images/zhuti7.jpg" alt=""></a></li>
+                            <li><a href="#"><img src="images/zhuti8.jpg" alt=""></a></li>
+                            <li><a href="#"><img src="images/zhuti9.jpg" alt=""></a></li>
+                            <li><a href="#"><img src="images/zhuti10.jpg" alt=""></a></li>
+                        </ul>
+                        <div class="left"></div>
+                        <div class="right"></div>
+                    </div>
+                </div>
+                <div class="iphone">
+                    <div class="GUI"></div>
+                    <img src="images/phone.png" alt="">
+                </div>
+            </div>
+
+
+            <div class="motai">
+                <div class="motai_in">
+                    <span class="close"></span>
+                    <span class="gol go"></span>
+                    <span class="gor go"></span>
+                </div>
+            </div>
+        </div>
+        <div class="screen04 start">
+            <div class="top_bar">
+                <span></span>
+                <span></span>
+                <div class="up">ABOUT</div>
+                <div class="down">
+                    <p>古道西风瘦马</p>
+                    <p>ANCIENT PATH WESTERLY POOR FELLOW</p>
+                </div>
+            </div>
+            <div class="xianshi"></div>
+            <div class="jianzhu"></div>
+            <div class="cloud"></div>
+            <div class="heimu"></div>
+            <div class="my">
+                <p class="p01">网页前端制作</p>
+                <p class="p02">WEB DESIGNER</p>
+                <p class="p03">从小学画，却并无大成，肩挑凡事，却拳握初心。2014年毕业于深圳职业技术学院，就读于传播工程学院出版设计专业，先后任职于深圳吉二企业形象设计公司、深圳易和达运输有限公司、深圳市奋达职业技术学校，有过静物摄影经验并了解布光。能熟练使用Photoshop、Illustrator、CorelDRAW等设计软件，可用Axure做交互原型，精通页面重构，熟悉html5、css3、javaScript、jquery、Ajax、Vue、BootStrap，了解AngularJS等框架，对javaSE底层也较为了解。</p>
+            </div>
+            <div class="myphoto"></div>
+        </div>
+        <div class="screen05 start">
+            <div class="top_bar">
+                <span></span>
+                <span></span>
+                <div class="up">CONTACT</div>
+                <div class="down">
+                    <p>夕阳西下</p>
+                    <p>WESTWARD DECLINES THE SUN</p>
+                </div>
+            </div>
+            <ul class="lianxi">
+                <li></li>
+                <li></li>
+                <li></li>
+                <li></li>
+            </ul>
+            <ul class="fangshi">
+                <li><span>135-2874-4257</span></li>
+                <li><span>664072683</span></li>
+                <li><span>yanyalng</span></li>
+                <li><span>664072683@ qq.com</span></li>
+            </ul>
+            <div class="liuyan g-container" id="box"></div>
+            <div class="clickliuyan">我要留言</div>
+        </div>
+        <!-- <div class="screen06 start">
+            <div class="top_bar">
+                <span></span>
+                <span></span>
+                <div class="up">ESSAY</div>
+                <div class="down">
+                    <p>断肠人在天涯</p>
+                    <p>HEARTBROKEN MAN AT THE END OF WORLD</p>
+                </div>
+            </div>
+            <ul>
+                <li>
+                    <a href="detail.html" target="_blank">
+                        <p>7</p>
+                        <p>2016.12</p>
+                        <h2>将军令 | 梨花叹</h2>
+                    </a>
+                </li>
+                <li>
+                    <a href="detail02.html" target="_blank">
+                        <p>9</p>
+                        <p>2016.12</p>
+                        <h2>什么是美</h2>
+                    </a>
+                </li>
+                <li>
+                    <a href="detail03.html" target="_blank">
+                        <p>11</p>
+                        <p>2016.12</p>
+                        <h2>天气物语</h2>
+                    </a>
+                </li>
+                <li>
+                    <a href="detail04.html" target="_blank">
+                        <p>12</p>
+                        <p>2016.12</p>
+                        <h2>折腾Axure写计算器</h2>
+                    </a>
+                </li>
+            </ul>
+            <ul>
+                <li>
+                    <a href="#">
+                        <p></p>
+                        <p></p>
+                        <p></p>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <p></p>
+                        <p></p>
+                        <p></p>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <p></p>
+                        <p></p>
+                        <p></p>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <p></p>
+                        <p></p>
+                        <p></p>
+                    </a>
+                </li>
+            </ul>
+            <ul>
+                <li>
+                    <a href="#">
+                        <p></p>
+                        <p></p>
+                        <p></p>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <p></p>
+                        <p></p>
+                        <p></p>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <p></p>
+                        <p></p>
+                        <p></p>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <p></p>
+                        <p></p>
+                        <p></p>
+                    </a>
+                </li>
+            </ul>
+        </div> -->
+    </section>
+    <script src="js/jquery.cookie.js"></script>
+    <script src="js/pager.js"></script>
+    <script src="js/comment.js"></script>
+    <script src="js/Seffects.js"></script>
+    <script>
+
+    </script>
+</body>
+
+</html>
