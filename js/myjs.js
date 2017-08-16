@@ -284,7 +284,7 @@ $(function () {
 	function st() {
 		timerlunbo = setInterval(function () {
 			lunbonum++;
-			if (lunbonum > 9) { lunbonum = 0; }
+			if (lunbonum > 3) { lunbonum = 0; }
 			$('.gui ul').animate({ 'left': -lunbonum * 100 + '%' });
 		}, 2000);
 	}
@@ -301,12 +301,12 @@ $(function () {
 		var apptimer = null;
 		$('.appbox_in02 .right').click(function (e) {
 			num++
-			if (num > 8) { num = 8 }
+			if (num > 3) { num = 3 }
 			if (num > -1) {
 				$('.appbox_in02 .left').fadeTo(300, 1)
 				$('.shadow').fadeTo(1000, 1)
 			}
-			if (num > 7) {
+			if (num > 3) {
 				$('.appbox_in02 .right').fadeTo(300, 0)
 				$('.shadow01').fadeTo(300, 0)
 			}
@@ -327,7 +327,7 @@ $(function () {
 				$('.appbox_in02 .left').fadeTo(300, 0)
 				$('.shadow').fadeTo(300, 0)
 			}
-			if (num < 8) {
+			if (num < 3) {
 				$('.appbox_in02 .right').fadeTo(300, 1)
 				$('.shadow01').fadeTo(1000, 1)
 			}
@@ -346,13 +346,13 @@ $(function () {
 			clearInterval(apptimer);
 			apptimer = setInterval(function () {
 				num++;
-				if (num > 8) { num = -1; }
+				if (num > 3) { num = -1; }
 				if (num > -1) {
 					$('.appbox_in02 .left').fadeTo(300, 1)
 					$('.shadow').fadeTo(1000, 1)
 				}
 				if (num > -2) { $('.appbox_in02 .right').fadeTo(300, 1) }
-				if (num > 7) {
+				if (num > 3) {
 					$('.appbox_in02 .right').fadeTo(300, 0)
 					$('.shadow01').fadeTo(300, 0)
 				}
