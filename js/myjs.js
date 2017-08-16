@@ -136,9 +136,6 @@ $(function () {
 	})
 
 	//作品TAB栏
-	/*$('.worksul li').mouseover(function(){
-		$(this).addClass('current').siblings().removeClass('current');
-	});*/
 
 	$('.worksul li').eq(0).click(function () {
 		var index = $(this).index();
@@ -147,25 +144,14 @@ $(function () {
 		$('.app').stop().fadeOut(500);
 		$('.appbox').stop().fadeOut();
 	});
-	$('.worksul li').eq(3).click(function () {
-		var index = $(this).index();
-		$(this).addClass('current').siblings().removeClass('current');
-		$('.allworks li').eq(index).fadeIn(500).siblings().stop().fadeOut(500);
-		$('.app').stop().fadeOut(500);
-		$('.appbox').stop().fadeOut();
-	});
-	$('.worksul li').eq(2).click(function () {
-		var index = $(this).index();
-		$(this).addClass('current').siblings().removeClass('current');
-		$('.allworks li').eq(index).fadeIn(500).siblings().stop().fadeOut(500);
-		$('.app').stop().fadeOut(500);
-		$('.appbox').stop().fadeOut();
-	});
-	/*$('.allworks li dt').hover(function(){
-		$(this).css('opacity','1');
-	},function(){
-		$(this).css('opacity','0.7');
-	});*/
+	// $('.worksul li').eq(2).click(function () {
+	// 	var index = $(this).index();
+	// 	$(this).addClass('current').siblings().removeClass('current');
+	// 	$('.appbox').eq(index).fadeIn(500).siblings().stop().fadeOut(500);
+	// 	$('.app').stop().fadeOut(500);
+	// 	$('.allworks li').stop().fadeOut();
+	// 	// $('.appbox').stop().fadeOut();
+	// });
 	$('.worksul li').eq(1).click(function () {
 		$(this).addClass('current').siblings().removeClass('current');
 		clearInterval(timerlunbo);
