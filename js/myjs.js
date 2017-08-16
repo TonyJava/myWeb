@@ -75,8 +75,21 @@ $(function () {
 		clearTimeout(timer);
 		timer = setTimeout(function () {
 			num -= delta;
-			if (num > 4) { num = 0 };
+			if (num > 4) { num = 4 };
 			if (num < 0) { num = 0 };
+			if (num != 4) {
+				$('.liuyan').css('display', 'none');
+				$('.clickliuyan').html('我要留言').css('transform', 'translate(0px,0px)');
+				// if ($('.clickliuyan').html() == '我要留言') {
+				// 	if ($(window).width() <= 1366) {
+				// 		$('.clickliuyan').html('关闭留言').css('transform', 'translateY(200px)');
+				// 		return false;
+				// 	}
+				// 	$('.clickliuyan').html('关闭留言').css('transform', 'translateX(300px)');
+				// } else {
+				// 	$('.clickliuyan').html('我要留言').css('transform', 'translate(0px,0px)');
+				// }
+			}
 			$('.gps li').eq(num).addClass('current').siblings().removeClass('current');
 			$('.doc').stop().animate({ top: -num * 100 + '%' }, 400);
 			$('.doc>div').eq(num).removeClass('start').siblings().addClass('start');
