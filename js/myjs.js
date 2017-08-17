@@ -64,7 +64,7 @@ $(function () {
 			$('.doc').stop().animate({ top: -num * 100 + '%' }, 400);
 			$('.doc>div').eq(num).removeClass('start').siblings().addClass('start');
 			$('.nav_in ul li').eq(num).addClass('current').siblings().removeClass('current');
-			bgmc();
+			// bgmc();
 			// mcruchang();
 		}, 300);
 	});
