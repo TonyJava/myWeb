@@ -18,36 +18,6 @@ $(function () {
 		num = index;
 	});
 
-	//封装钢琴模块的背景音乐控制
-	function bgmc() {
-		if (num == 6) {
-			$('audio').eq(0)[0].pause();
-			musicbox.style.background = "url(images/music_c.png)";
-			musicbox.style.backgroundSize = "100%";
-			musicbox.style.animation = "music 4s infinite linear paused";
-		}/*else{
-			$('audio').eq(0)[0].play();
-			musicbox.style.background = "url(images/music.png)";
-			musicbox.style.backgroundSize = "100%";
-			musicbox.style.animation = "music 4s infinite linear running";
-		}*/
-	}
-
-	//封装钢琴入场动画
-	// function mcruchang(){
-	// 	clearInterval(ruchang);
-	// 	var nums=0;
-	// 	var ruchang=null;
-	// 	if(num==6){
-	// 		ruchang=setInterval(function(){
-	// 			$('.mc_audio').eq(nums)[0].play();
-	// 			$('.all ul li span').eq(nums).stop().animate({top:0},300).animate({top:100+'%'},300);
-	// 			nums++;
-	// 			if(nums>8){clearInterval(ruchang)}
-	// 		},150);
-	// 	}
-	// }
-
 	$('.gps li').click(function () {
 		var index = $(this).index();
 		$(this).addClass('current').siblings().removeClass('current');
@@ -55,7 +25,7 @@ $(function () {
 		$('.doc>div').eq(index).removeClass('start').siblings().addClass('start');
 		$('.nav_in ul li').eq(index).addClass('current').siblings().removeClass('current');
 		num = index;
-		bgmc();
+		// bgmc();
 		// mcruchang();
 	});
 	$('.nav_in ul li').click(function () {
@@ -65,7 +35,7 @@ $(function () {
 		$('.doc>div').eq(index).removeClass('start').siblings().addClass('start');
 		$('.gps li').eq(index).addClass('current').siblings().removeClass('current');
 		num = index;
-		bgmc();
+		// bgmc();
 		// mcruchang();
 	});
 

@@ -24,7 +24,7 @@ S.Drawing = (function () {
             window.oRequestAnimationFrame ||
             window.msRequestAnimationFrame ||
             function (callback) {
-                times = window.setTimeout(callback, 1000 / 60);
+                times = window.setTimeout(callback, 700 / 60);
             };
 
     return {
@@ -116,7 +116,7 @@ S.UI = (function () {
             current = sequence.shift();
             action = getAction(current);
             value = getValue(current);
-
+            // 数字
             switch (action) {
                 case 'countdown':
                     value = parseInt(value) || 10;
@@ -139,7 +139,7 @@ S.UI = (function () {
                             S.Shape.switchShape(S.ShapeBuilder.letter(index), true);
 
                         }
-                    }, 1000, value, true);
+                    }, 500, value, true);
 
                     break;
 
@@ -168,7 +168,7 @@ S.UI = (function () {
                                 time = t;
                                 S.Shape.switchShape(S.ShapeBuilder.letter(time));
                             }
-                        }, 1000);
+                        }, 500);
                     }
                     break;
 
@@ -176,7 +176,7 @@ S.UI = (function () {
                     S.Shape.switchShape(S.ShapeBuilder.letter(current[0] === cmd ? 'HacPai' : current));
             }
 
-        }, 2000, sequence.length);
+        }, 1000, sequence.length);
 
     }
 
