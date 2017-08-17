@@ -6,6 +6,19 @@ $(function () {
 	//     	//$('.loading').fadeOut();
 	// 	//});
 	// },6000);
+	// setTimeout(function () {
+	// 	$('.fixed').fadeIn();
+	// }, 5000);
+	// $('.fixed-img').on('mouseover', function () {
+	// 	$('.fixed-qq').fadeIn();
+	// 	$('.fixed-email').fadeIn();
+	// });
+	// $('.fixed-img').on('mouseout', function () {
+	// 	setTimeout(function () {
+	// 		$('.fixed-qq').fadeOut();
+	// 		$('.fixed-email').fadeOut();
+	// 	}, 1500);
+	// });
 
 	$('.screen01').removeClass('start');
 

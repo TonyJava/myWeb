@@ -5,6 +5,45 @@ a{text-decoration: none;color: #606060;}
 a:hover{text-decoration: none;color: #fff;}
 img{display: block;}
 
+/* 固定小图标 */
+.fixed{
+	position: fixed;
+	top: 80%;
+	left:1%;
+	z-index: 99;
+	display:none;
+}
+.fixed-img{
+	position: absolute;
+	top:0;
+	left:0;
+	height: 50px;
+	width:50px;
+	z-index: 99;
+}
+.fixed-qq{
+	width: 30px;
+	height: 30px;
+	position: absolute;
+	top: -30px;
+	left:50px;
+	z-index: 99;
+	background-color: white;
+	border-radius: 50%;
+	display:none;
+}
+.fixed-email{
+	width: 30px;
+	height: 30px;
+	position: absolute;
+	top: 45px;
+	left:50px;
+	z-index: 99;
+	background-color: white;
+	border-radius: 50%;
+	display:none;
+}
+
 /* gps导航 */
 .gps{width: 20px;height: 124px;position: absolute;right:20px;top:50%;margin-top: -62px;z-index: 2;}
 .gps li{margin: 0 auto;width: 16px;height: 16px;border-radius:50%;background: #ccc;margin-bottom: 10px;cursor: pointer;opacity:0.4;transition:all 1s;}
