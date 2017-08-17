@@ -6,19 +6,17 @@ $(function () {
 	//     	//$('.loading').fadeOut();
 	// 	//});
 	// },6000);
-	// setTimeout(function () {
-	// 	$('.fixed').fadeIn();
-	// }, 5000);
-	// $('.fixed-img').on('mouseover', function () {
-	// 	$('.fixed-qq').fadeIn();
-	// 	$('.fixed-email').fadeIn();
-	// });
-	// $('.fixed-img').on('mouseout', function () {
-	// 	setTimeout(function () {
-	// 		$('.fixed-qq').fadeOut();
-	// 		$('.fixed-email').fadeOut();
-	// 	}, 1500);
-	// });
+	setTimeout(function () {
+		$('.fixed').fadeIn();
+	}, 5000);
+	$('.fixed').on('mouseenter', function () {
+		$('.fixed-qq').fadeIn();
+		$('.fixed-email').fadeIn();
+	});
+	$('.fixed').on('mouseleave', function () {
+		$('.fixed-qq').fadeOut();
+		$('.fixed-email').fadeOut();
+	});
 
 	$('.screen01').removeClass('start');
 
